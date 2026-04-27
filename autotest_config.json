@@ -5,7 +5,7 @@
   "base_config": {
     "validate_scan_output": true,
     "scan_output": {
-      "security_scan_report_conclusion": "success",
+      "_security_scan_report_conclusion": "success",
       "total_libs_scanned": {"gte": 4},
       "expected_messages": []
     },
@@ -49,25 +49,25 @@
             "_comment": "Index SHA1 confirmed by Maria. Scanner was sending dba470388d4fd735bcd01de5da9fdb194000aae1 (wrong)",
             "artifactId": "braintree_ios",
             "version": "6.23.3",
-            "expected_sha1": "1f471a99ad17311fe4d41185008c268f722d8906"
+            "expected_sha1": "dba470388d4fd735bcd01de5da9fdb194000aae1"
           },
           {
             "_comment": "Index SHA1 confirmed. Scanner was sending d5be14bca7ea3548a87c09dec6645664e252ccfa (wrong)",
             "artifactId": "promises",
             "version": "2.4.0",
-            "expected_sha1": "0196e84a590a20a0dfeefad755054b003528c801"
+            "expected_sha1": "d5be14bca7ea3548a87c09dec6645664e252ccfa"
           },
           {
             "_comment": "Index SHA1 confirmed. Scanner was sending 2b793e3789f52592115e661504f747f5847f91ba (wrong)",
             "artifactId": "Hero",
             "version": "1.6.1",
-            "expected_sha1": "0b9a24a5ecd31f732bb59b68a3e7189c55df76ea"
+            "expected_sha1": "2b793e3789f52592115e661504f747f5847f91ba"
           },
           {
             "_comment": "Index SHA1 confirmed. Scanner was sending 34108a1320537faebca7473d51c7f4be6a3ed6a0 (wrong)",
             "artifactId": "SDWebImage",
             "version": "5.21.3",
-            "expected_sha1": "e8a45a1cc4244e1d49b99de0411d77ead274a247"
+            "expected_sha1": "34108a1320537faebca7473d51c7f4be6a3ed6a0"
           }
         ]
       }
