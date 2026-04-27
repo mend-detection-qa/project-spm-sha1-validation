@@ -44,6 +44,7 @@
         "check_sha1_not_empty": true,
         "check_sha1_format": true,
         "check_sha1_consistency": true,
+        "check_checksums_by_formula": true,
         "expected_dependency_checksums": [
           {
             "_comment": "Index SHA1 confirmed by Maria. Scanner was sending dba470388d4fd735bcd01de5da9fdb194000aae1 (wrong)",
