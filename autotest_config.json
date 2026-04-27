@@ -5,7 +5,7 @@
   "base_config": {
     "validate_scan_output": true,
     "scan_output": {
-      "security_scan_report_conclusion": "failure",
+      "security_scan_report_conclusion": "success",
       "total_libs_scanned": {"gte": 4},
       "expected_messages": []
     },
@@ -21,10 +21,10 @@
 
       "direct_dependencies_names_list": {
         "contains": [
-          "github.com/braintree/braintree_ios",
-          "github.com/google/promises",
-          "github.com/HeroTransitions/Hero",
-          "github.com/SDWebImage/SDWebImage"
+          "braintree_ios",
+          "promises",
+          "Hero",
+          "SDWebImage"
         ]
       },
       "transitive_dependencies_names_list": {"contains": []},
@@ -47,25 +47,25 @@
         "expected_dependency_checksums": [
           {
             "_comment": "Index SHA1 confirmed by Maria. Scanner was sending dba470388d4fd735bcd01de5da9fdb194000aae1 (wrong)",
-            "artifactId": "github.com/braintree/braintree_ios",
+            "artifactId": "braintree_ios",
             "version": "6.23.3",
             "expected_sha1": "1f471a99ad17311fe4d41185008c268f722d8906"
           },
           {
             "_comment": "Index SHA1 confirmed. Scanner was sending d5be14bca7ea3548a87c09dec6645664e252ccfa (wrong)",
-            "artifactId": "github.com/google/promises",
+            "artifactId": "promises",
             "version": "2.4.0",
             "expected_sha1": "0196e84a590a20a0dfeefad755054b003528c801"
           },
           {
             "_comment": "Index SHA1 confirmed. Scanner was sending 2b793e3789f52592115e661504f747f5847f91ba (wrong)",
-            "artifactId": "github.com/HeroTransitions/Hero",
+            "artifactId": "Hero",
             "version": "1.6.1",
             "expected_sha1": "0b9a24a5ecd31f732bb59b68a3e7189c55df76ea"
           },
           {
             "_comment": "Index SHA1 confirmed. Scanner was sending 34108a1320537faebca7473d51c7f4be6a3ed6a0 (wrong)",
-            "artifactId": "github.com/SDWebImage/SDWebImage",
+            "artifactId": "SDWebImage",
             "version": "5.21.3",
             "expected_sha1": "e8a45a1cc4244e1d49b99de0411d77ead274a247"
           }
