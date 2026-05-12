@@ -21,8 +21,8 @@
 
       "direct_dependencies_names_list": {
         "contains": [
-          "braintree_ios",
-          "promises",
+          "Braintree",
+          "Promises",
           "Hero",
           "SDWebImage"
         ]
